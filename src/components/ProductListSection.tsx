@@ -21,7 +21,7 @@ export function ProductListSection() {
     setShowModal(false);
 
     const fetchData = async () => {
-      const response = await fetch('http://pjpw.vercel.app/listar' + artist);
+      const response = await fetch('https://pjpw.vercel.app/listar' + artist);
       const json = await response.json();
       setListing(json);
     };
@@ -44,7 +44,7 @@ export function ProductListSection() {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch('http://pjpw.vercel.app/listar');
+      const response = await fetch('https://pjpw.vercel.app/listar');
       const json = await response.json();
       setListing(json);
     };
