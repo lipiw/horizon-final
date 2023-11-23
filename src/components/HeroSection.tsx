@@ -88,7 +88,7 @@ export function HeroSection() {
           href="/register"
           className="my-14 flex cursor-pointer items-center justify-center text-sm font-semibold leading-6 text-gray-900"
         >
-          Não possue cadastro? <span aria-hidden="true">→</span>
+          Não tem cadastro? <span aria-hidden="true">→</span>
         </NextLink>
       </div>
     </section>
